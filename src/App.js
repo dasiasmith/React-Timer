@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <CountdownTimer
-      countdownTimestampMs={1643673600000}/>
+      countdownTimestampMs={1655186216000}/>
     </div>
   );
 }

@@ -27,12 +27,12 @@ const CountdownTimer = ({countdownTimestampMs}) => {
         <div className="countdown-timer">
             <span>{remainingTime.days}</span>
             <span>days</span>
-            <span>{remainingTime.hours}</span>
+            <span className='two-numbers'>{remainingTime.hours}</span>
             <span>hours</span>
-            <span>{remainingTime.minutes}</span>
+            <span className='two-numbers'>{remainingTime.minutes}</span>
             <span>minutes</span>
             <span>{remainingTime.seconds}</span>
-            <span>seconds</span>
+            <span className='two-numbers'>seconds</span>
         </div>
     );
 }
